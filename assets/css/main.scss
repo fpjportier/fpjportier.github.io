@@ -10,7 +10,6 @@
 
 @import
     "vendor/breakpoint/breakpoint",
-
     "themes",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
     "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
@@ -43,5 +42,5 @@
 ;
 
 .sidebar {
-  padding-right: 2em;
+  padding-right: 4em;
 }
