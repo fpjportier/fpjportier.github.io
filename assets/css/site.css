@@ -151,6 +151,20 @@ main.content-page img, main.content-page video, main.content-page iframe {
   height: auto;
 }
 main.content-page figure { margin: 1.5rem 0; text-align: center; }
+main.content-page img.aligncenter {
+  display: block;
+  margin: 1rem auto;
+}
+main.content-page img.alignleft {
+  display: block;
+  margin: 1rem 1rem 1rem 0;
+  float: left;
+}
+main.content-page img.alignright {
+  display: block;
+  margin: 1rem 0 1rem 1rem;
+  float: right;
+}
 main.content-page figcaption {
   font-size: 0.85rem;
   color: var(--muted);
