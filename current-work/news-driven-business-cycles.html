@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News Driven Business Cycles — Franck Portier</title>
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-wrap">
+    <a class="site-title" href="../index.html">Franck Portier</a>
+    <nav>
+      <a href="../about/index.html">About me</a>
+      <a href="../research/index.html">Research</a>
+      <a href="../current-work/index.html">Current Work</a>
+      <a href="../teaching/index.html">Teaching</a>
+      <a href="../talks/index.html">Talks</a>
+      <a href="../news/index.html">News</a>
+    </nav>
+  </div>
+</header>
+
+<main class="content-page">
+<h1>News Driven Business Cycles: Insights and Challenges — Data and Codes</h1>
+<p><a href="../assets/uploads/2014/05/irf.jpg"><img data-attachment-id="1311" data-permalink="https://fportier.wordpress.com/news-driven-business-cycles-insights-and-challenges-data-and-codes/irf/" data-orig-file="../assets/uploads/2014/05/irf.jpg" data-orig-size="1201,901" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="IRF" data-image-description="" data-image-caption="" data-large-file="../assets/uploads/2014/05/irf.jpg" loading="lazy" class="aligncenter wp-image-1311 size-medium" src="../assets/uploads/2014/05/irf.jpg" alt="IRF" width="300" height="225" srcset="../assets/uploads/2014/05/irf.jpg 300w, ../assets/uploads/2014/05/irf.jpg 600w, ../assets/uploads/2014/05/irf.jpg 150w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a></p>
+<p>Here are gathered data and codes for the replication of all the estimations and simulations of the paper &#8220;News Driven Business Cycles: Insights and Challenges&#8221; co-authored with Paul Beaudry and that is published in the Journal of Economic Litterature (2015).</p>
+<p>Data are in Excel files and codes are Matlab. Codes are commented so that they should be understandable. None of the codes have been written with the aim of being elegant nor efficient. Therefore, they are not.</p>
+<p><em>Those codes are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</em></p>
+<p>The whole archive file “<strong>BP JEL Public codes and data</strong>” with data ad code can be obtained <a href="https://dl.dropboxusercontent.com/u/4176762/Homepage/JEL/BP%20JEL%20Public%20codes%20and%20data.zip">here</a>.</p>
+<ul>
+<li><strong>JELbase.mat</strong> is the matlab data file that gathers all the data we need. It is generated from the file <strong>MakeJELBase.m</strong> that is located in the directory <strong>data</strong>. In that directory are gathered all the Excel files needed.</li>
+<li>The directory <strong>Section1model</strong> contains the code that computes the IRF of the theoretical model.</li>
+<li>The directory <strong>VarEvidence</strong> contains all the codes to estimate and the Monte Carlo simulations, for the models with 2, 3 and 4 variables. <strong>Factors</strong> is a subdirectory that estimates a model a VECM with 7 variables that includes the two first factors of Forni, Gambetti and Sala (2014, Economic Journal). Those factors, kindly provided by FGS, are in an Excel file.</li>
+<li>The directory <strong>ReducedFormEvidence</strong> contains the code that computes the statistics used in the “reduced form evidence” of the paper.</li>
+<li>The directory<strong> Invertibility</strong> computes the IRF used in the section on invertibility.</li>
+</ul>
+<p>&nbsp;</p>
+
+</main>
+
+<footer>
+  <a href="https://fportier.wordpress.com/" target="_blank" rel="noopener">Original WordPress site</a>
+</footer>
+
+</body>
+</html>
