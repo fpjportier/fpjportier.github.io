@@ -192,6 +192,9 @@ main.content-page hr {
   border-top: 1px solid var(--border);
   margin: 1.5rem 0;
 }
+main.content-page hr.wp-block-coblocks-dynamic-separator {
+  margin: 0;
+}
 main.content-page .post-date {
   color: var(--muted);
   font-size: 0.9rem;
