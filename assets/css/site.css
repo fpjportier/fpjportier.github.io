@@ -155,6 +155,11 @@ main.content-page img.aligncenter {
   display: block;
   margin: 1rem auto;
 }
+main.content-page img.page-icon {
+  width: 180px;
+  height: 104px;
+  object-fit: contain;
+}
 main.content-page img.alignleft {
   display: block;
   margin: 1rem 1rem 1rem 0;
